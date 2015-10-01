@@ -10,13 +10,17 @@ curl https://raw.githubusercontent.com/blackout314/sh/master/sh/karma-jasmine | 
 
 ### karma Init
 
+create karma.conf
+
 ```
-npm karmainit
+npm start 
 ```
 
 ### karma start
 
+start karma tests runner
+
 ```
-npm start
+npm test
 ```
 

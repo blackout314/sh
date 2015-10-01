@@ -4,7 +4,7 @@
   "description": "",
   "scripts": {
     "test": "./node_modules/karma/bin/karma start karma.conf.js",
-    "karmainit": "./node_modules/karma/bin/karma init"
+    "start": "./node_modules/karma/bin/karma init"
   },
   "devDependencies": {
     "jasmine-core": "^2.2.0",
