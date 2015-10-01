@@ -1,2 +1,2 @@
-curl -O http://github.com/
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/karma/package.json
 npm install
