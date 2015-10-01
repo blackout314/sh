@@ -7,6 +7,7 @@ usefull shellscript
 ```
 curl https://raw.githubusercontent.com/blackout314/sh/master/sh/karma-jasmine | sh
 ```
+[fonte](http://www.bradoncode.com/blog/2015/02/27/karma-tutorial/)
 
 ### karma Init
 
