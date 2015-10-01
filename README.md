@@ -7,3 +7,16 @@ usefull shellscript
 ```
 curl https://raw.githubusercontent.com/blackout314/sh/master/sh/karma-jasmine | sh
 ```
+
+### karma Init
+
+```
+npm init
+```
+
+### karma start
+
+```
+npm start
+```
+
