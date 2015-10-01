@@ -1,12 +1,9 @@
 #!/bin/bash
 
-COL_BLUE="\x1b[34;01m"
-COL_RESET="\x1b[39;49;00m"
-
-echo -e $COL_BLUE"DOWNLOAD "$COL_RESET" default package.json"
+echo "[DOWNLOAD] default package.json"
 
 curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/karma/package.json
 
-echo -e $COL_BLUE"INSTALL "$COL_RESET" npm packages"
+echo "[INSTALL_] npm packages"
 
 npm install
