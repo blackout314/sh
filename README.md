@@ -11,7 +11,7 @@ curl https://raw.githubusercontent.com/blackout314/sh/master/sh/karma-jasmine | 
 ### karma Init
 
 ```
-npm init
+npm karmainit
 ```
 
 ### karma start
