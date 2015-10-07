@@ -1,6 +1,6 @@
 # sh
 
-usefull shellscript
+usefull shellscript - *dont clone* use command
 
 ## karma-jasmine
 
