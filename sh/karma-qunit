@@ -1,0 +1,13 @@
+#!/bin/bash
+
+echo "[DOWNLOAD] default package.json"
+
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/karma/qunit/package.json
+
+echo "[INSTALL_] npm packages"
+
+npm install
+
+echo "[DOWNLOAD] test template"
+
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/qunit/testTpl.js
