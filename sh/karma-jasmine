@@ -7,3 +7,7 @@ curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/karma/packag
 echo "[INSTALL_] npm packages"
 
 npm install
+
+echo "[DOWNLOAD] test template"
+
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/jasmine/testTpl.js
