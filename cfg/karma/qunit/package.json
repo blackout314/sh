@@ -10,6 +10,7 @@
     "karma": "^0.12.31",
     "karma-chrome-launcher": "^0.1.7",
     "karma-qunit": "^0.1.5",
-    "qunitjs": "^1.19.0"
+    "qunitjs": "^1.19.0",
+    "karma-mocha-reporter": "~1.1.1"
   }
 }
