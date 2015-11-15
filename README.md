@@ -2,7 +2,7 @@
 
 usefull shellscript - *dont clone* use command
 
-## karma-jasmine
+## JS karma-jasmine
 
 ```
 curl https://raw.githubusercontent.com/blackout314/sh/master/sh/karma-jasmine | sh
@@ -25,7 +25,7 @@ start karma tests runner
 npm test
 ```
 
-## karma-qunit
+## JS karma-qunit
 
 ```
 curl https://raw.githubusercontent.com/blackout314/sh/master/sh/karma-qunit | sh
@@ -47,3 +47,9 @@ start karma tests runner
 npm test
 ```
 
+## PHP PHPUnitStrap
+
+```
+curl -sS https://raw.githubusercontent.com/blackout314/PHPUnitStrap/master/install | sh
+
+```
