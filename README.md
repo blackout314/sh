@@ -2,6 +2,29 @@
 
 usefull shellscript - *dont clone* use command
 
+## JS grunt-karma-jasmine
+
+```
+curl https://raw.githubusercontent.com/blackout314/sh/master/sh/grunt-karma-jasmine | sh
+```
+
+#### karma Init
+
+create karma.conf
+
+```
+npm start 
+```
+
+#### grunt start
+
+start grunt-karma tests runner
+
+```
+npm test
+```
+
+
 ## JS karma-jasmine
 
 ```

@@ -1,0 +1,14 @@
+#!/bin/bash
+
+echo "[DOWNLOAD] default package.json"
+
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/grunt/package.json
+
+echo "[INSTALL_] npm packages"
+
+npm install
+
+echo "[DOWNLOAD] Gruntfile & test template"
+
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/jasmine/testTpl.js
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/grunt/Gruntfile.js
