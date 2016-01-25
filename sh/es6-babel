@@ -1,0 +1,10 @@
+#!/bin/bash
+
+echo "[DOWNLOAD] default package.json & gruntfile"
+
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/es6/package.json
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/es6/Gruntfile.js
+
+echo "[INSTALL_] npm packages"
+
+npm install

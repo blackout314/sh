@@ -2,6 +2,18 @@
 
 usefull shellscript - *dont clone* use command
 
+## JS ES6 + Babel
+
+```
+curl https://raw.githubusercontent.com/blackout314/sh/master/sh/es6-babel | sh
+```
+
+### Grunt Start
+
+```
+grunt
+```
+
 ## JS grunt-karma-jasmine
 
 ```
