@@ -2,8 +2,10 @@
 
 echo "[DOWNLOAD] default package.json & gruntfile"
 
-curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/es6/package.json
 curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/es6/Gruntfile.js
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/es6/karma.conf.js
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/es6/package.json
+curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/es6/webpack.config.js
 
 echo "[INSTALL_] npm packages"
 
