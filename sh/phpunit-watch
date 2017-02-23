@@ -1,0 +1,64 @@
+#!/usr/bin/env bash
+
+# example)
+#   ./phpunit-watch src/ tests/ -c tests/ --colors
+
+set -e
+set -u
+
+function usage
+{
+    {
+        echo "Usage: $0 <path>... [--] [options]..."
+        cat <<__END__
+
+    path        Monitor paths.
+    options     PHPUnit command line options.
+
+e.g.)
+
+    1. Monitoring src/ tests/ and execute "phpunit -c tests/ --colors"
+
+        $0 src/ tests/ -c tests/ --colors
+
+    2. Monitoring src/ tests/ and execute "phpunit tests/"
+
+        $0 src/ tests/ -- tests/
+
+__END__
+    } 1>&2
+
+    exit 1
+}
+
+paths=()
+
+while [ $# -ne 0 ]; do
+    if [ "${1#-}" == "$1" ]; then
+        paths+=( "$1" )
+    else
+        break
+    fi
+    shift
+done
+
+if [ "${#paths[@]}" -eq 0 ]; then
+    usage
+fi
+
+if [ $# -ne 0 ]; then
+    if [ "$1" == "--" ]; then
+        shift
+    fi
+fi
+
+echo "Monitor paths: ${paths[@]}"
+echo "PHPUnit options: $@"
+
+inotifywait -e create,delete,modify,move --exclude '.*\.sw[pox]' -m -r "${paths[@]}" |
+while read; do
+    while read -t 0.3; do
+        :
+    done
+    ./bin/phpunit "$@" &&:
+done
