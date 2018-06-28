@@ -18,5 +18,5 @@ echo "[INSTALL_] example files"
 mkdir js
 touch js/index.js
 
-mdkir tests
+mkdir tests
 mv testTpl.js tests
