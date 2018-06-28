@@ -11,3 +11,12 @@ npm install
 echo "[DOWNLOAD] test template"
 
 curl -O https://raw.githubusercontent.com/blackout314/sh/master/cfg/jasmine/testTpl.js
+
+
+echo "[INSTALL_] example files"
+
+mkdir js
+touch js/index.js
+
+mdkir tests
+mv testTpl.js tests
