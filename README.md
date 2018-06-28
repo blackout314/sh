@@ -14,7 +14,7 @@ curl https://raw.githubusercontent.com/blackout314/sh/master/sh/es6-babel | sh
 grunt
 ```
 
-## JS grunt-karma-jasmine
+## JS grunt-karma-jasmine - 18/06/28
 
 ```
 curl https://raw.githubusercontent.com/blackout314/sh/master/sh/grunt-karma-jasmine | sh
@@ -37,7 +37,7 @@ npm test
 ```
 
 
-## JS karma-jasmine
+## JS karma-jasmine - 18/06/28
 
 ```
 curl https://raw.githubusercontent.com/blackout314/sh/master/sh/karma-jasmine | sh
