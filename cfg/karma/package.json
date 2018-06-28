@@ -7,10 +7,10 @@
     "start": "./node_modules/karma/bin/karma init"
   },
   "devDependencies": {
-    "jasmine-core": "^2.2.0",
-    "karma": "^0.12.31",
-    "karma-chrome-launcher": "^0.1.7",
-    "karma-jasmine": "^0.3.5",
+    "jasmine-core": "^2.7.0",
+    "karma": "0.13.21",
+    "karma-chrome-launcher": "^2.2.0",
+    "karma-jasmine": "0.3.8",
     "karma-mocha-reporter": "~1.1.1"
   }
 }
