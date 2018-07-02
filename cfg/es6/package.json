@@ -23,7 +23,7 @@
     "karma": "0.13.21",
     "karma-chrome-launcher": "^2.2.0",
     "karma-jasmine": "0.3.8",
-    "karma-mocha-reporter": "~1.1.1"
+    "karma-mocha-reporter": "~1.1.1",
     "karma-phantomjs-launcher": "^1.0.0",
     "karma-webpack": "^1.7.0",
     "load-grunt-tasks": "^3.4.0",
