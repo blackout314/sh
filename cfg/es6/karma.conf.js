@@ -11,7 +11,6 @@ module.exports = function(config) {
     ],
 
     preprocessors: {
-      'src/**/*.js': ['coverage'],
       'test/**/*.js': ['webpack']
     },
 
@@ -19,11 +18,7 @@ module.exports = function(config) {
       devtool: 'inline-source-map',
       module: {
         loaders: webpackConfig.module.loaders,
-        postLoaders: [{
-          test: /\.js$/,
-          exclude: /(test|node_modules|bower_components)\//,
-          loader: 'istanbul-instrumenter'
-        }]
+        postLoaders: []
       },
       externals: webpackConfig.externals
     },
